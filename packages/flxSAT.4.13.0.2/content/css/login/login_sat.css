@@ -1,0 +1,92 @@
+﻿body {
+    background-color: #1a87c7 !important;
+}
+
+#license #logo {
+    background: url('../../img/satlogo.png');
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#license a {
+    background-color: #00cfee !important;
+}
+
+#license #trademark {
+    font-family: 'raleway', 'Helvetica', 'Arial,sans-serif';
+    text-align: center;
+    font-size: 4em;
+}
+
+.login {
+    margin: 0 auto;
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    background-image: url(../../img/satbg.jpg);
+    background-size: cover;
+    background-color: #1a87c7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position-x: right;
+    background-position-y: bottom;
+}
+
+form {
+    color: #002033;
+}
+#loginForm .flx-icon.icon-user:before {
+    content: "\e921" !important;
+}
+
+#loginForm .flx-icon.icon-lock:before {
+    /*content: "\e9f9" !important;*/
+}
+
+.divlogin {
+    margin: 0px auto;
+    width: 400px;
+    padding: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    background-color: rgba(26, 135, 199, 0.5411764705882353);
+    background-image: linear-gradient(120deg,rgba(255, 255, 255, 0.8901960784313725) 10%,rgba(255, 255, 255, 0) 100%);
+}
+
+.login input[type='text'], .login input[type='password'] {
+    color: #002033;
+    border-bottom: solid 1px #002033;
+}
+
+.mainbutton {
+    background-color: #002033;
+}
+
+input::placeholder {
+    color: white;
+}
+
+a {
+    color:#002033;
+    background-color: transparent;
+}
+
+.logo {
+    background-image: url(../../img/satlogin.png);
+}
+
+.mainbutton:hover {
+    background-color: #002033a1;
+}
+
+.trademark .outstanding {
+    color: #002033;
+}
